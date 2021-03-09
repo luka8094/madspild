@@ -1,0 +1,14 @@
+/* css fil til den overordnet styling af siden */
+
+/*reset default værdier i browseren*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.splash{
+    background-color: turquoise;
+    width: 100%;
+    height: 700px;
+}

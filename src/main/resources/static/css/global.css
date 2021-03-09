@@ -1,0 +1,9 @@
+/* css fil til globale variabler */
+
+:root{
+    /* websidens farvepalette */
+    --jet: #2e2a24ff;
+    --snow: #f9f1f1ff;
+    --magic-mint: #98e2c6ff;
+    --amazon: #4d805cff;
+}
