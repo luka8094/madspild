@@ -6,7 +6,7 @@
 <header th:replace="fragments/header :: header"></header>
 <body>
 <section class="splash">
-<h1 id="test">Hey there</h1>
+<h1 id="test">Mug er mums</h1>
 </section>
 <section class="summary-about-mugrmums">
     <div class="short-summary">
@@ -15,10 +15,20 @@
         </p>
     </div>
 </section>
-<section class="client-type">
+<section class="customer-type">
 
-    <div class="business-customer"></div>
-    <div class="private-customer"></div>
+    <aside class="business-customer customer-box">
+        <div class="selection-box">
+            <article class="for-business"></article>
+            <input class="selection-button" type="submit">
+        </div>
+    </aside>
+    <aside class="private-customer customer-box">
+        <div class="selection-box">
+            <article class="for-private"></article>
+            <input class="selection-button" type="submit">
+        </div>
+    </aside>
 
 </section>
 <footer th:replace="fragments/footer :: footer"></footer>
