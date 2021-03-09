@@ -99,9 +99,17 @@
     background-color: rgba(0,120,100,0.5);
 }
 
-.selection-button{
+.button-form{
     height: 30%;
     width: 100%;
+}
+
+.selection-button{
+    height: 100%;
+    width: inherit;
+    background-color: white;
+    border-style: none;
+    font-family: Arkipelago;
 }
 /* header elementets properties */
 header{
