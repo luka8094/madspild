@@ -8,21 +8,25 @@
 
 .splash-image{
     position: relative;
-    background: url(../img/splash.jpg);
+    background: url(../img/splash2.jpg);
     width: 100vw;
     height: 100vh;
     background-attachment: fixed;
     background-size: cover;
+    z-index: -20;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .splash{
-    background-color: linear-gradient(45deg, var(--magic-mint), transparent);
+    background-color: palegoldenrod;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
     height: 700px;
-    overflow: hidden;
+    position: relative;
 }
 
 .cirkel{
@@ -49,10 +53,9 @@
 /* testing font connection */
 #test{
     font-family: "Winthorpe";
-    font-size: 10em;
+    font-size: 15em;
     color: lightgrey;
     position: absolute;
-    z-index: -3;
 
 }
 
@@ -66,23 +69,37 @@
 
 }
 
-.short-summary{
+#tagline-holder{
+    display: block;
+    height: fit-content;
+    width: fit-content;
+    position: fixed;
+    z-index: -10;
+}
+
+.tagline{
     display: flex;
-    border-top: 0.2em solid black;
-    border-bottom: 0.2em solid black;
+    border-top: 0.2em solid white;
+    border-bottom: 0.2em solid white;
     height: 150px;
     width: 500px;
     margin: auto;
     text-align: center;
     justify-content: center;
+    z-index: -15;
+    align-self: center;
 }
 
-.short-summary p{
+.tagline p{
+    position: fixed;
     align-self: center;
     font-family: "Arkipelago";
     font-size: 2.1em;
-    color: black;
+    color: white;
+    margin: auto;
+    z-index: -100;
 }
+
 
 .private-customer{
     background-color: rgba(0,250,0,0.5);
