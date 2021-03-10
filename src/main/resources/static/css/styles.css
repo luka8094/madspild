@@ -74,7 +74,6 @@
     justify-content: center;
 }
 
-
 .short-summary p{
     align-self: center;
     font-family: "Arkipelago";
@@ -117,6 +116,7 @@
 
 }
 
+/* overordnet egenskaber for de to aside elementer på home siden*/
 .for-business,
 .for-private{
     height: 70%;
@@ -141,6 +141,7 @@
     transition-timing-function: ease-in-out;
 }
 
+/* animation af transition når brugerens cursor træder ind i knappens område*/
 .selection-button:hover{
     background-color: black;
     color: white;
@@ -155,6 +156,7 @@
     width: 100%;
 }
 
+/* egenskaber for h1 title på business partner section */
 .partners-title{
     text-align: center;
     font-family: "Arkipelago";
