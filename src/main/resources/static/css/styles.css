@@ -149,6 +149,48 @@
     color: white;
 }
 
+/* private side*/
+.info-for-private-customer{
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    flex-direction: column;
+    width: 100%;
+}
+
+.private-title{
+    margin-top: auto;
+    text-align: center;
+    font-family: "Arkipelago";
+}
+.usefull-links{
+    background-color: red;
+    height: 300px;
+    width: 75%;
+    margin: auto;
+}
+.link-row{
+    justify-content: space-evenly;
+    display: flex;
+    height: 100px;
+    width: 100%;
+    background-color: blue;
+}
+.uf-link{
+    align-items: center;
+    justify-content: center;
+    background-color: green;
+    margin: 10px;
+    display: flex;
+    height: 20px;
+    width: 50%;
+    text-align: center;
+    font-family: "Arkipelago";
+    color: white;
+    padding: 12px;
+    border-radius: 10px;
+}
+
 /* business side */
 .business-partners{
     display: flex;
