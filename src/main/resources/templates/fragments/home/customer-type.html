@@ -1,0 +1,29 @@
+<section th:fragment="customer-type" class="customer-type">
+    <div class="customer-options">
+        <p>We offer a variety of options</p>
+    </div>
+    <div class="customer-options-wrapper">
+        <aside class="business-customer customer-box">
+            <div class="customer-title">
+                <p>for interested business</p>
+            </div>
+            <div class="selection-box">
+                <article class="for-business"></article>
+                <form class="button-form" action="/for-business">
+                    <input class="selection-button" type="submit" value="business">
+                </form>
+            </div>
+        </aside>
+        <aside class="private-customer customer-box">
+            <div class="customer-title">
+                <p>for normal clients</p>
+            </div>
+            <div class="selection-box">
+                <article class="for-private"></article>
+                <form class="button-form" action="/private">
+                    <input class="selection-button" type="submit" value="private">
+                </form>
+            </div>
+        </aside>
+    </div>
+</section>
