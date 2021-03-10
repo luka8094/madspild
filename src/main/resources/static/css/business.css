@@ -1,0 +1,39 @@
+
+/* business side */
+.business-partners{
+    display: flex;
+    justify-content: center;
+    height: 600px;
+    flex-direction: column;
+    width: 100%;
+}
+
+/* egenskaber for h1 title på business partner section */
+.partners-title{
+    margin-top: auto;
+    text-align: center;
+    font-family: "Arkipelago";
+}
+
+.partner-logo-row{
+    justify-content: space-evenly;
+    display: flex;
+    height: 100px;
+    width: 100%;
+    background-color: rgba(0,50,0,0.5);
+
+}
+
+.partners-logos-container{
+    height: 300px;
+    width: 50%;
+    margin: auto;
+}
+
+.logo-test-space{
+    height: 110px;
+    width: 110px;
+    border-radius: 100%;
+    background-color: white;
+    border: 0.2em solid chartreuse;
+}
