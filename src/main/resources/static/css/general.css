@@ -44,13 +44,14 @@ a{
     text-decoration: none;
     margin: auto;
     color: white;
-    font-family: "Arkipelago";
+    font-family: "Alesand";
     font-size: 1.2em;
     width: 100%;
+    text-align: center;
 }
 
 ul.menu{
-    width: 30%;
+    width: 50%;
     display: flex;
     height: inherit;
     margin-left: auto;
@@ -61,7 +62,7 @@ ul.menu li{
     display: flex;
     margin: auto;
     color: white;
-    width: 12%;
+    width: 25%;
 }
 
 /* footer elementets properties */
