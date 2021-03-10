@@ -1,6 +1,7 @@
 /* css fil til den overordnet styling af siden */
+/* TODO: splitte filen op i mindre css filer for et bedre overblik */
 
-/* import global css variables*/
+/* importere global css variables*/
 @import url("global.css");
 
 /*reset default værdier i browseren*/
