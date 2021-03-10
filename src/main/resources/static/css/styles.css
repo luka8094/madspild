@@ -196,14 +196,23 @@ header{
     width: 100%;
     height: 50px;
     z-index: 100;
+    border-bottom: 0.2em solid white;
+
+}
+
+.menu-wrapper{
+    display: flex;
+    height: inherit;
+    width: 70%;
+    margin: auto;
 
 }
 
 .logo{
-    width: 20%;
+    width: 10%;
     height: inherit;
     background-color: chartreuse;
-
+    border-bottom: 0.2em solid white;
 }
 
 nav{
