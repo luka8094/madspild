@@ -10,6 +10,7 @@
     box-sizing: border-box;
 }
 
+/* home side */
 /* splash properties */
 .splash{
     background-color: linear-gradient(45deg, var(--magic-mint), transparent);
@@ -143,6 +144,32 @@
 .selection-button:hover{
     background-color: black;
     color: white;
+}
+
+/* business side */
+.business-partners{
+    display: flex;
+    justify-content: center;
+    height: 600px;
+    flex-direction: column;
+    width: 100%;
+}
+
+.partners-title{
+    text-align: center;
+    font-family: "Arkipelago";
+}
+
+.partner-logo-row{
+    height: 100px;
+    width: 100%;
+    background-color: rgba(0,50,0,0.5);
+}
+
+.partners-logos-container{
+    height: 300px;
+    width: 60%;
+    margin: auto;
 }
 
 /* header elementets properties */
