@@ -20,10 +20,10 @@ public class WebsideController {
 
     }
 
-    @GetMapping("/private")
-    public String renderPrivate(){
+    @GetMapping("/casual")
+    public String renderCasual(){
 
-        return "private.html";
+        return "casual.html";
 
     }
 }
