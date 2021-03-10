@@ -220,8 +220,10 @@ a{
 }
 
 ul.menu{
+    width: 30%;
     display: flex;
     height: inherit;
+    margin-left: auto;
 }
 
 ul.menu li{
