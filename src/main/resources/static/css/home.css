@@ -1,5 +1,20 @@
 /* home side */
 /* splash properties */
+
+.splash-image-container{
+    width: 100vw;
+    height: 100vh;
+}
+
+.splash-image{
+    position: relative;
+    background: url(../img/splash.jpg);
+    width: 100vw;
+    height: 100vh;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
 .splash{
     background-color: linear-gradient(45deg, var(--magic-mint), transparent);
     display: flex;
@@ -33,7 +48,7 @@
 
 /* testing font connection */
 #test{
-    font-family: "Arkipelago";
+    font-family: "Winthorpe";
     font-size: 10em;
     color: lightgrey;
     position: absolute;
@@ -66,15 +81,7 @@
     align-self: center;
     font-family: "Arkipelago";
     font-size: 2.1em;
-    font-kerning: revert;
     color: black;
-}
-
-.customer-type{
-    display: flex;
-    background-color: var(--amazon);
-    height: 700px;
-    width: 100%;
 }
 
 .private-customer{
