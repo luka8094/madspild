@@ -1,14 +1,41 @@
 
 <footer th:fragment="footer">
     <div class="footer-container">
+        <div class="footer-columns-container">
         <div class="footer-column">
             <!--  til diverse virksomheds oplysninger og kontakt -->
+            <h1>CONTACT</h1>
+            <ul>
+                <li>EnAdresseHerVej 1</li>
+                <li>Købenahavn 1234</li>
+                <li>tlf. 12 34 56 78</li>
+                <li>email: vores@email.dk</li>
+            </ul>
         </div>
         <div class="footer-column">
             <!--  til diverse virksomheds oplysninger og kontakt -->
+            <h1>SITEMAP</h1>
+            <ul>
+                <li><a th:href="@{/home}">HOME</a></li>
+                <li><a th:href="@{/for-business}">BUSINESS</a></li>
+                <li><a th:href="@{/casual}">CASUAL</a></li>
+                <li><a th:href="@{/casual}">COMPANY</a></li>
+            </ul>
         </div>
         <div class="footer-column">
             <!--  til diverse virksomheds oplysninger og kontakt -->
+            <h1>OTHER</h1>
+            <ul>
+                <li><a>BLOG</a></li>
+                <li><a>RECIPES</a></li>
+            </ul>
+        </div>
+        </div>
+        <div class="footer-bottom-row">
+            <div class="social-media-icons-container">
+                <div class="social-media-icon"></div>
+                <div class="social-media-icon"></div>
+            </div>
         </div>
     </div>
 </footer>
