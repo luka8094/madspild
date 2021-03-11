@@ -61,6 +61,8 @@
     z-index: -100;
 }
 
+
+/* whois section */
 .whois-intro{
     position: absolute;
     height: 400px;
@@ -75,7 +77,7 @@
     background: yellow;
 }
 
-.intro-text-article{
+.whois-intro-text{
     display: flex;
     background: aliceblue;
     font-family: "Alesand";
@@ -85,7 +87,7 @@
     flex-direction: column;
 }
 
-.intro-text-article p:nth-child(2){
+.whois-intro-text p:nth-child(2){
     margin-top: 1em;
     margin-bottom: auto;
     background: yellowgreen;
@@ -133,6 +135,96 @@
 
 }
 
+/* section med facts om madspild */
+
+.facts-and-data-about-food-waste{
+    display: flex;
+    background: goldenrod;
+    height: 650px;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.facts-container{
+    display: flex;
+    height: 550px;
+    width: 70%;
+    background: rgba(200,100,50,0.7);
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.facts-wrapper{
+    height: 400px;
+    background: floralwhite;
+    width: 90%;
+    margin: auto;
+    display: flex;
+}
+
+.facts-title{
+    margin: auto;
+    text-align: center;
+}
+
+.facts-title h1{
+    font-family: "Arkipelago";
+    font-size: 3em;
+
+}
+
+.fact-box{
+    background: grey;
+    width: 250px;
+    height: inherit;
+    margin: auto;
+
+}
+
+.fact-figure,
+.fact-text{
+    height: 50%;
+    width: 100%;
+}
+
+.fact-figure{
+    font-family: Alesand;
+    text-align: center;
+    font-size: 2.7em;
+    background: rgba(255,255,255,0.5);
+    justify-content: center;
+    line-height: 40px;
+    display: flex;
+}
+
+h1.fact-figure-font{
+    margin: auto;
+    display: flex;
+    color: var(--amazon);
+
+}
+
+.fact-text{
+    background: rgba(255,255,255,0.2);
+}
+
+.fact-text-box{
+    background: rgba(110,150,10,0.5);
+    width: 200px;
+    height: 75%;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Alesand";
+    font-size: 1.0em;
+    text-align: center;
+}
+
+
+/* section for diverse customer types */
 .private-customer{
     background-color: rgba(0,250,0,0.5);
     height: 700px;
