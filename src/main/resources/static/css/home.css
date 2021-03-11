@@ -5,6 +5,7 @@
     width: 100%;
     height: 95vh;
     background: rgba(255,255,255,0.5);
+    justify-content: center;
 }
 
 .splash-image{
@@ -57,7 +58,7 @@
     position: fixed;
     align-self: center;
     font-family: "Arkipelago";
-    font-size: 2.5em;
+    font-size: 2.7em;
     color: white;
     margin: auto;
     z-index: -100;
