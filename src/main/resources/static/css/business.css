@@ -51,10 +51,26 @@
     margin: auto;
 }
 
-.logo-test-space{
+.business-logos-first-row{
     height: 110px;
     width: 110px;
-    border-radius: 100%;
-    background-color: white;
+    background-color: transparent;
     border: 0.2em solid chartreuse;
+}
+
+.business-logos-first-row:nth-child(1){
+    background: url(../img/netto-logo.jpg) no-repeat center;
+    background-size: contain;
+    display: flex;
+    position: relative;
+}
+
+.business-logos-first-row:nth-child(2){
+    background: url("../img/Lidl-Logo.svg.png") no-repeat center;
+    background-size: contain;
+}
+
+.business-logos-first-row:nth-child(3){
+    background: url("../img/SuperBrugsen_logo_old.png") no-repeat center;
+    background-size: contain;
 }
