@@ -135,6 +135,11 @@ footer{
     background: rgba(10,150,10,1.0);
 }
 
+.footer-bottom-row p{
+    display: flex;
+    margin: auto 0;
+}
+
 .social-media-icons-container{
     margin-left: auto;
     height: 50px;

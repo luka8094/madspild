@@ -51,6 +51,7 @@
     margin: auto;
 }
 
+/* første række af business logoer */
 .business-logos-first-row{
     height: 110px;
     width: 110px;
@@ -74,3 +75,54 @@
     background: url("../img/SuperBrugsen_logo_old.png") no-repeat center;
     background-size: contain;
 }
+
+/* anden række af business logoer */
+.business-logos-second-row{
+    height: 110px;
+    width: 110px;
+    background-color: transparent;
+    border: 0.2em solid chartreuse;
+}
+
+.business-logos-second-row:nth-child(1){
+    background: url("../img/coop.png") no-repeat center;
+    background-size: contain;
+}
+
+.business-logos-second-row:nth-child(2){
+    background: url("../img/irma.png") no-repeat center;
+    background-size: contain;
+}
+
+.business-logos-second-row:nth-child(3){
+    background: url("../img/kvickly.png") no-repeat center;
+    background-size: contain;
+}
+
+.business-logos-second-row:nth-child(4){
+    background: url("../img/aldi.png") no-repeat center;
+    background-size: contain;
+}
+/* tredje række af business logoer */
+.business-logos-third-row{
+    height: 110px;
+    width: 110px;
+    background-color: transparent;
+    border: 0.2em solid chartreuse;
+}
+
+.business-logos-third-row:nth-child(1){
+    background: url("../img/jntj.png") no-repeat center;
+    background-size: contain;
+}
+
+.business-logos-third-row:nth-child(2){
+    background: url("../img/emmerys.png") no-repeat center;
+    background-size: contain;
+}
+
+.business-logos-third-row:nth-child(3){
+    background: url("../img/dsg.jpg") no-repeat center;
+    background-size: contain;
+}
+

@@ -216,6 +216,10 @@ h1.fact-figure-font{
 
 }
 
+.fact-middle-figure-font{
+    font-size: 2em;
+}
+
 .fact-text{
     background: rgba(255,255,255,0.2);
 }
