@@ -148,6 +148,35 @@
     background-color: black;
     color: white;
 }
+/* private side */
+.info-for-private-customer {
+    display: flex;
+    justify-content: center;
+    height: 100px;                                              
+    flex-direction: column;
+    width: 100%;
+}
+
+.private-title{
+    margin-top: auto;
+    text-align: center;
+    font-family: Arkipelago;
+}
+.usefull-links{
+    background-color: red;
+    height: 300px;
+    width: 75%;
+    margin: auto;
+}
+
+.link-row {
+    justify-content: space-evenly;
+    display: flex;
+    height: 100px;
+    width: 100%;
+    background-color: blue;
+
+}
 
 /* private side*/
 .info-for-private-customer{
