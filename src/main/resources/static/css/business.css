@@ -8,7 +8,7 @@
     width: 100%;
 }
 
-.customer-type{
+.customer-type-section{
     display: flex;
     flex-direction: column;
     background-color: var(--amazon);
@@ -198,9 +198,10 @@
 .business-form-field-input-holder input{
     margin: auto;
     width: 90%;
-    height: 60%;
+    height: 50%;
     border-style: none;
     border-bottom: 0.19em black solid;
+    font-size: 1.1em;
 }
 
 .business-form-field input[type=submit]{
@@ -210,7 +211,8 @@
     height: 40%;
     border-radius: 5px;
     font-size: 1.5em;
-    background: rgba(170,170,170, 0.5);
+    background: var(--amazon);
+    color: white;
 }
 
 .business-form-field label,

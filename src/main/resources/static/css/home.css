@@ -236,62 +236,137 @@ h1.fact-figure-font{
     text-align: center;
 }
 
-
-/* section for diverse customer types */
-.private-customer{
-    background-color: rgba(0,250,0,0.5);
-    height: 700px;
-    width: 50%;
-}
-
-.business-customer{
-    background-color: rgba(0,200,0,0.5);
-    height: 700px;
-    width: 50%;
-}
-
-.customer-box{
+.customer-type-section{
     display: flex;
+    height: 110vh;
+    width: 100%;
+    background: rgba(10,100,10,0.5);
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
-.selection-box{
+.customer-options-wrapper{
     display: flex;
     flex-direction: column;
+    height: fit-content;
+    width: 75%;
     margin: auto;
-    height: 500px;
-    width: 350px;
-    background-color: rgba(255,255,255,0.1);
+}
+
+.customer-options-description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Alesand";
+    font-size: 1.5em;
+    text-align: center;
+    height: 150px;
+}
+
+.customer-options-description p{
+    margin: auto;
+}
+
+
+
+.customer-type-box{
+    height: 300px;
+    width: 250px;
+    background: rgba(255,255,255,0.1);
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    box-shadow: 0 0 10px lightgrey;
 
 }
 
-/* overordnet egenskaber for de to aside elementer på home siden*/
-.for-business,
-.for-private{
-    height: 70%;
+.customer-type-box h1{
+    font-family: "Alesand";
+    margin: auto;
+}
+
+.customer-type-options-first-row,
+.customer-type-options-second-row{
     width: 100%;
-    background-color: rgba(0,120,100,0.5);
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.button-form{
-    height: 30%;
+.customer-type-options-first-row-container{
+    height: fit-content;
     width: 100%;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+
 }
 
-.selection-button{
-    height: 100%;
-    width: inherit;
-    background-color: white;
+.customer-type-box{
+    height: 300px;
+    width: 250px;
+    background: rgba(255,255,255,1);
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.customer-type-box article{
+    height: 150px;
+    width: 100%;
+    background: rgba(255,255,255,0.1);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.customer-button{
+    height: 50px;
+    width: 200px;
     border-style: none;
-    font-family: Arkipelago;
-    font-size: 5em;
-    transition-property: color, background-color;
-    transition-duration: 0.5s;
-    transition-timing-function: ease-in-out;
+    border-radius: 5px;
+    background: var(--amazon);
+    color: white;
+    margin: auto;
+    display: flex;
+    text-align: center;
+    font-family: "Alesand";
+    justify-content: center;
+    font-size: 1.2em;
 }
 
-/* animation af transition når brugerens cursor træder ind i knappens område*/
-.selection-button:hover{
-    background-color: black;
-    color: white;
+.customer-type-button-container{
+    display: flex;
+    justify-content: center;
+    height: 100px;
+}
+
+/* section for diverse customer types */
+
+.customer-icon-business,
+.customer-icon-org,
+.customer-icon-citizen{
+    height: 150px;
+    width: 150px;
+    background: rgba(255,255,255,0.1);
+}
+
+.customer-icon-business{
+    background: url("../img/factory.svg") no-repeat;
+    background-size: contain;
+}
+
+.customer-icon-org{
+    background: url("../img/goverment.svg") no-repeat;
+    background-size: contain;
+
+}
+
+.customer-icon-citizen{
+    background: url("../img/house.svg") no-repeat;
+    background-size: contain;
 }

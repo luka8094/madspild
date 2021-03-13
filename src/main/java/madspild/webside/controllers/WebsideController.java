@@ -20,10 +20,10 @@ public class WebsideController {
 
     }
 
-    @GetMapping("/casual")
-    public String renderCasual(){
+    @GetMapping("/borger")
+    public String renderBorger(){
 
-        return "casual.html";
+        return "borger.html";
 
     }
 }

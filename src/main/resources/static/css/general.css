@@ -7,6 +7,11 @@
     box-sizing: border-box;
 }
 
+::placeholder{
+    color: rgba(170,170,170,0.5);
+
+}
+
 /* header elementets properties */
 header{
     position: fixed;
