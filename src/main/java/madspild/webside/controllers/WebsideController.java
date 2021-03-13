@@ -26,4 +26,11 @@ public class WebsideController {
         return "borger.html";
 
     }
+
+    @GetMapping("/org")
+    public String renderOrg(){
+
+        return "org.html";
+
+    }
 }
