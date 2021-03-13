@@ -17,3 +17,5 @@
 /* importere stylesheetet for casual undersiden */
 @import "borger.css";
 
+/* importere media queries for siderne */
+@import "media-queries.css";
