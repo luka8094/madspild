@@ -4,13 +4,13 @@
 .splash-image-container{
     width: 100%;
     height: 95vh;
-    background: rgba(255,255,255,0.5);
+    background: rgba(0,0,0,0.25);
     justify-content: center;
 }
 
 .splash-image{
     position: relative;
-    background: url(../img/splash2.jpg);
+    background: url("../img/madspild_splash.jpg");
     width: inherit;
     height: 100vh;
     background-attachment: fixed;
@@ -57,8 +57,8 @@
 .tagline p{
     position: fixed;
     align-self: center;
-    font-family: "Arkipelago";
-    font-size: 2.7em;
+    font-family: "StencilEF";
+    font-size: 4.0em;
     color: white;
     margin: auto;
     z-index: -100;
@@ -180,7 +180,7 @@
 }
 
 .facts-title h1{
-    font-family: "Arkipelago";
+    font-family: "StencilEF";
     font-size: 3em;
 
 }
