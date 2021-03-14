@@ -87,6 +87,32 @@
     z-index: -100;
 }
 
+.mission-section{
+
+    display: flex;
+    flex-direction:column;
+    height: 90vh;
+    width: 100%;
+    background: rgba(0,150,0,0.5);
+}
+
+.mug-is-mums-mission-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: auto;
+    background: rgba(0,150,0,0.5);
+    height: 70%;
+    width: 55%;
+}
+
+.mug-is-mums-mission-text p{
+    font-family: "Alesand";
+    font-size: 3em;
+
+}
+
 
 /* whois section */
 .whois-intro{
@@ -390,7 +416,7 @@ h1.fact-figure-font{
 
 }
 
-.customer-icon-citizen{
+.customer-icon-citizen {
     background: url("../img/house.svg") no-repeat;
     background-size: contain;
 }
