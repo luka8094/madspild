@@ -31,17 +31,73 @@ Main merge del - start (skal tjekkes igennem)
 }
 
 .private-title{
-    margin-top: auto;
+    margin: auto 0;
     text-align: center;
-    font-family: "Arkipelago";
-    font-size: 2em;
+    font-family: "Alesand";
+    font-size: 3em;;
 }
 .usefull-links{
-    height: 90%;
-    width: 70%;
+    height: 70vh;
+    width: 100%;
     margin: auto;
     background: rgba(150,150,100,0.3);
 }
+
+.usefull-links-container{
+    height: inherit;
+    width: 900px;
+    background: rgba(10,150,10,0.1);
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+
+.usefull-links-top{
+    display: flex;
+    justify-content: left;
+    height: 20%;
+    width: 100%;
+    background: aliceblue;
+}
+
+.usefull-links-bottom{
+    display: flex;
+    flex-direction: row;
+    height: 80%;
+    width: 100%;
+
+}
+
+.links-column{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    height: 35%;
+    width: 30%;
+    justify-content: space-evenly;
+}
+
+.links-column a{
+    text-align: left;
+}
+
+.usefull-links-globe-image{
+    height: 100%;
+    width: 70%;
+    background: yellow;
+    opacity: 50%;
+
+}
+
+.globe-image{
+    background: white;
+    height: 300px;
+    width: 300px;
+    margin: auto;
+}
+
+/*
 .link-row{
     justify-content: space-evenly;
     display: flex;
@@ -64,6 +120,7 @@ Main merge del - start (skal tjekkes igennem)
     padding: 10px;
     border-radius: 12px;
 }
+*/
 
 .app{
     display: flex;
