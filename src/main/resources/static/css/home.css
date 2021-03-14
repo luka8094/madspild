@@ -4,7 +4,7 @@
 .splash-image-container{
     width: 100%;
     height: 95vh;
-    background: rgba(0,150,0,1);
+    background: linear-gradient(90deg, #2e2a24ff, #f9f1f1ff, #98e2c6ff, #4d805cff);
     justify-content: center;
     display: flex;
     overflow: hidden;
