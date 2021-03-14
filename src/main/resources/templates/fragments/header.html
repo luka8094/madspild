@@ -2,14 +2,16 @@
 <header th:fragment="header">
     <div class="menu-wrapper">
         <div class="logo">
+            <a class="mums-logo" th:href="@{/home}">
 
+            </a>
         </div>
         <nav>
             <ul class="menu">
-                <li><a th:href="@{/home}">home</a></li>
-                <li><a th:href="@{/for-business}">business</a></li>
-                <li><a th:href="@{/borger}">borger</a></li>
-                <li><a th:href="@{/org}">organisationer</a></li>
+                <li class="page-link"><a th:href="@{/home}">home</a></li>
+                <li class="page-link"><a th:href="@{/for-business}">virksomhed</a></li>
+                <li class="page-link"><a th:href="@{/borger}">FORBRUGER</a></li>
+                <li class="page-link"><a th:href="@{/org}">organisationer</a></li>
             </ul>
 
         </nav>

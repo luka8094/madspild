@@ -1,31 +1,5 @@
 /* resereveret til forskellige enheds størrelsers under skalering */
 
-@media (min-width:600px){
-
-
-}
-
-@media (min-width: 700px){
-
-
-}
-
-@media (min-width: 900px){
-
-
-}
-
-@media (min-width: 1200px){
-
-
-}
-
-@media (min-width: 2000px){
-
-
-
-}
-
 /* maximum bredderne for skalering */
 
 @media (max-width:600px){
@@ -38,12 +12,11 @@
 
 }
 
-@media (max-width: 900px){
+@media (max-width: 1000px){
 
     /* af om menuen bliver skjult under 900px*/
-    .menu{
+    ul.menu li.page-link{
         display: none;
-        visibility: collapse;
     }
 
     .mug-is-mums-title-font{
