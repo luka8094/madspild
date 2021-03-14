@@ -112,6 +112,77 @@ Main merge del - start (skal tjekkes igennem)
     height: 100px;
     width: 100px;
 }
+/* Sign up */
+
+.signup-container p {
+    font-family: Arkipelago;
+    font-size:2em;
+    color: black;
+    margin: auto;
+}
+
+.fill-out-form-for-private{
+    height: 500px;
+    width: 1000px;
+    margin: auto;
+}
+
+input[type=email], input[type=text], input[type=tel] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 12px;
+    margin: auto;
+    display: inline-block;
+    border: none;
+    background: green;
+    color: white;
+    font-family: Arial
+}
+
+.signup-container b {
+    font-family: Arial;
+}
+
+.signup-container input::placeholder{
+  color: white;
+}
+
+.signup-form{
+    margin: auto;
+}
+
+.signup-container{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 50%;
+    height: 100px;
+    background-color: white;
+
+}
+
+hr {
+    border: 1px solid;
+    margin-bottom: 25px;
+}
+
+.registerbtn {
+    background-color: green;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+    padding: 10px;
+    border-radius: 12px;
+}
+
+.registerbtn:hover {
+    opacity:1;
+}
+
 
 
 
