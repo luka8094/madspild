@@ -136,11 +136,11 @@ input[type=email], input[type=text], input[type=tel] {
     border: none;
     background: green;
     color: white;
-    font-family: Arkipelago
+    font-family: Arial
 }
 
 .signup-container b {
-    font-family: Arkipelago;
+    font-family: Arial;
 }
 
 .signup-container input::placeholder{
