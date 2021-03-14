@@ -25,3 +25,40 @@
 
 
 }
+
+/* maximum bredderne for skalering */
+
+@media (max-width:600px){
+
+
+}
+
+@media (max-width: 700px){
+
+
+}
+
+@media (max-width: 900px){
+
+    /* af om menuen bliver skjult under 900px*/
+    .menu{
+        display: none;
+        visibility: collapse;
+    }
+
+    .mug-is-mums-title-font{
+        width: 75%;
+    }
+
+}
+
+@media (max-width: 1200px){
+
+
+}
+
+@media (min-width: 2000px){
+
+
+
+}
