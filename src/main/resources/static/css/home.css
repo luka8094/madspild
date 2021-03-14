@@ -175,13 +175,6 @@
 }
 
 /* testing font connection */
-#test{
-    font-family: "Winthorpe";
-    font-size: 15em;
-    color: lightgrey;
-    position: absolute;
-
-}
 
 .summary-about-mugrmums{
     display: flex;
