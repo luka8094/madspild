@@ -37,24 +37,24 @@
 
 <!-- udfyldningsformula til private kunder -->
 <section class="fill-out-form-for-private">
-    <form action="">
+    <form class="signup-form" action="">
     <div class="signup-container">
-        <h2>Sign up form</h2>
-        <p>If you want to receive our newsletter...fill in this form</p>
+        <p>Meld dig til vores nyhedsbrev</p>
         <hr>
-
-        <label for="Email"><b>Email</b></label>
-        <input type="Email" placeholder="Enter Email" id="email" required>
 
         <label for="full-name"><b>Name</b></label>
         <input type="text" placeholder="Enter your full name" id="full-name" required>
+
+        <label for="Email"><b>Email</b></label>
+        <input type="Email" placeholder="Enter Email" id="email" required>
 
         <label for="address"><b>Address</b></label>
         <input type="text" placeholder="Enter your address" id="address" required>
 
         <label for="phone"><b>Phone number</b></label>
-        <input type="tel" placeholder="Enter your phone number" id="phone" pattern="[0-9][0-9][0-9][0-9]" required>
+        <input type="tel" placeholder="Enter your phone number" id="phone" pattern="[0-9]{8}" required>
 
+        <button type="submit" class="registerbtn">Register</button>
     </div>
     </form>
 
