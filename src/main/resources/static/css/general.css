@@ -54,7 +54,7 @@ nav{
 }
 
 a{
-    text-decoration: none;
+    text-decoration-color: transparent;
     margin: auto;
     color: white;
     font-family: "Alesand";

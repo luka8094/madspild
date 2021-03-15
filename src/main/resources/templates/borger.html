@@ -13,7 +13,11 @@
 <section class="app">
     <div class="app-container">
         <h1>Hent appen og kom ind i kampen!</h1>
-        <a class="app-pic" href="https://play.google.com/store/apps/details?id=package.one" target="_blank"> </a>
+        <button class="download-button-app">
+            <a class="download-app-button-link" href="https://play.google.com/store/apps/details?id=package.one" target="_blank">
+                download app
+            </a>
+        </button>
     </div>
 </section>
 
@@ -25,16 +29,66 @@
     <div class="usefull-links-container">
     <article class="usefull-links-top">
         <h1 class ="private-title">Nyttige links om mere info</h1>
-        <p></p>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id elit sed tellus imperdiet eleifend id vitae felis. Aliquam eget mattis nunc. Integer pulvinar tortor a vehicula venenatis.
+        </p>
     </article>
     <aside class="usefull-links-bottom">
         <div class="links-column">
+            <aside class="link-container">
+                <div class="usefull-links-arrow">
+                    <div class="arrow-line-1"></div>
+                    <div class="arrow-line-2"></div>
+                    <div class="arrow-line-3"></div>
+                </div>
             <a class="uf-link" href="https://toogoodtogo.dk/da" target="_blank">ToGoodToGo</a>
+
+            </aside>
+            <aside class="link-container">
+                <div class="usefull-links-arrow">
+                    <div class="arrow-line-1"></div>
+                    <div class="arrow-line-2"></div>
+                    <div class="arrow-line-3"></div>
+                </div>
             <a class="uf-link" href="https://skagenfood.dk/da-dk/ekstravarer/frugt-groent/kassen-mod-madspild?gclsrc=aw.ds&gclid=Cj0KCQiA-aGCBhCwARIsAHDl5x9tsUBRfz-EenJ-GECi7KFVwOZQkAJfmxkqH6F3_kXYMmozfEg99ysaArc6EALw_wcB" target="_blank">Madspildskassen</a>
+
+            </aside>
+                <aside class="link-container">
+                <div class="usefull-links-arrow">
+                    <div class="arrow-line-1"></div>
+                    <div class="arrow-line-2"></div>
+                    <div class="arrow-line-3"></div>
+                </div>
             <a class="uf-link" href="https://www.stopspildafmad.dk/" target="_blank">StopSpildAfMad</a>
+
+            </aside>
+            <aside class="link-container">
+                <div class="usefull-links-arrow">
+                    <div class="arrow-line-1"></div>
+                    <div class="arrow-line-2"></div>
+                    <div class="arrow-line-3"></div>
+                </div>
             <a class="uf-link" href="https://taenk.dk/test-og-forbrugerliv/mad-og-indkoeb/madspild" target="_blank">Forbrugerrådet</a>
+            </aside>
+
+                <aside class="link-container">
+                <div class="usefull-links-arrow">
+                    <div class="arrow-line-1"></div>
+                    <div class="arrow-line-2"></div>
+                    <div class="arrow-line-3"></div>
+                </div>
             <a class="uf-link" href="https://mst.dk/affald-jord/affald/saerligt-for-borgere-om-affald/madspild/" target="_blank">TipsNTricks</a>
+            </aside>
+
+            <aside class="link-container">
+                <div class="usefull-links-arrow">
+                    <div class="arrow-line-1"></div>
+                    <div class="arrow-line-2"></div>
+                    <div class="arrow-line-3"></div>
+                </div>
             <a class="uf-link" href="https://danmarkmodmadspild.dk/" target="_blank">DanmarkModMadspild</a>
+            </aside>
+
         </div>
         <div class="usefull-links-globe-image">
             <div class="globe-image">
@@ -48,25 +102,29 @@
 
 <!-- udfyldningsformula til private kunder -->
 <section class="fill-out-form-for-private">
-    <form class="signup-form" action="">
-    <div class="signup-container">
-        <p>Meld dig til vores nyhedsbrev</p>
+    <form class="signup-form" action="POST">
+        <div class="signup-container">
+            <aside class="sign-up-borger-call-out">
+                <p>Hvad venter du på?</p>
+                <p>Meld dig til nyhedsbrevet!</p>
+            </aside>
+                <aside class="sign-up-borger-email">
 
-        <label for="full-name"><b>Name</b></label>
-        <input type="text" placeholder="Enter your full name" id="full-name" required>
-
-        <label for="Email"><b>Email</b></label>
-        <input type="Email" placeholder="Enter Email" id="email" required>
-
-        <label for="address"><b>Address</b></label>
-        <input type="text" placeholder="Enter your address" id="address" required>
-
-        <button type="submit" class="registerbtn">Register</button>
-    </div>
+                    <div class="borger-form-container">
+                        <div class="sign-up-borger-input-holder">
+                            <label for="email"></label>
+                            <input type="email" placeholder="indtast din email!" id="email" required>
+                        </div>
+                        <div class="sign-borger-form-input">
+                            <label>submitknap</label>
+                            <input for="submitknap" type="submit">
+                        </div>
+                    </div>
+                </aside>
+        </div>
     </form>
-
-
 </section>
+
 </body>
 <footer th:replace="fragments/footer :: footer"></footer>
 </html>
