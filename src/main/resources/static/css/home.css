@@ -112,6 +112,14 @@
 
 }
 
+.mug-is-mums-mission-text p:nth-child(2){
+    font-family: "Nature Breath";
+    font-size: 3em;
+    color: var(--amazon);
+
+}
+
+
 
 /* whois section */
 .whois-intro{
@@ -242,12 +250,12 @@
 }
 
 .fact-figure{
-    font-family: Alesand;
+    font-family: "Alesand";
     text-align: center;
-    font-size: 2.7em;
+    font-size: 3em;
     background: rgba(255,255,255,0.5);
     justify-content: center;
-    line-height: 40px;
+    line-height: 50px;
     display: flex;
 }
 
@@ -274,8 +282,8 @@ h1.fact-figure-font{
     margin-left: auto;
     margin-right: auto;
     font-family: "Alesand";
-    font-size: 1.0em;
-    text-align: center;
+    font-size: 1.1em;
+    /* text-align: center; */
 }
 
 .customer-type-section{

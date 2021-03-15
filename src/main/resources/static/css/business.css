@@ -32,7 +32,7 @@
 .info-for-business-customer{
     height: 60vh;
     width: 100%;
-    background: rgba(0,150,1,1);
+    background: white;
     justify-content: center;
     display: flex;
     flex-direction: column;
@@ -80,7 +80,7 @@
 .partners-title{
     margin-top: auto;
     text-align: center;
-    font-family: "Arkipelago";
+    font-family: "Alesand";
     font-size: 3em;
 }
 
@@ -89,8 +89,7 @@
     display: flex;
     height: 100px;
     width: 100%;
-    background-color: rgba(0,50,0,0.5);
-
+    background-color: white;
 }
 
 .partners-logos-container{
@@ -104,7 +103,7 @@
     height: 110px;
     width: 110px;
     background-color: transparent;
-    border: 0.2em solid chartreuse;
+    border: 0.2em solid transparent;
 }
 
 .business-logos-first-row:nth-child(1){
@@ -129,7 +128,7 @@
     height: 110px;
     width: 110px;
     background-color: transparent;
-    border: 0.2em solid chartreuse;
+    border: 0.2em solid transparent;
 }
 
 .business-logos-second-row:nth-child(1){
@@ -156,7 +155,7 @@
     height: 110px;
     width: 110px;
     background-color: transparent;
-    border: 0.2em solid chartreuse;
+    border: 0.2em solid transparent;
 }
 
 .business-logos-third-row:nth-child(1){
@@ -179,7 +178,7 @@
     display: flex;
     height: 100vh;
     width: 100%;
-    background: rgba(220,200,100,0.5);
+    background: white;
 
 }
 
@@ -193,7 +192,7 @@
     display: flex;
     height: inherit;
     width: 39%;
-    background: rgba(100,160,150,0.5);
+    background: white;
     margin-left: auto;
     flex-direction: column;
 }
@@ -210,7 +209,7 @@
     display: flex;
     height: inherit;
     width: 30%;
-    background: rgba(100,160,150,0.2);
+    background: white;
     margin-right: auto;
 }
 
@@ -219,7 +218,7 @@
     flex-direction: column;
     height: 90%;
     width: 90%;
-    background: rgba(100,100,0,0.5);
+    background: white;
     margin: 0 auto;
 }
 
@@ -236,7 +235,7 @@
     display: flex;
     width: 90%;
     height: 50%;
-    background: aliceblue;
+    background: white;
     border-radius: 20px;
     border-style: hidden;
     flex-direction: column;
@@ -269,7 +268,7 @@
 }
 
 .business-call-out{
-    font-family: "StencilEF";
+    font-family: "Nature Breath";
     font-size: 3.5em;
     margin: auto;
     text-align: center;
@@ -280,7 +279,7 @@
 }
 
 .business-call-to-action{
-    background: rgba(0,150,0,1);
+    background: white;
     height: 30vh;
     width: 100%;
     justify-content: center;

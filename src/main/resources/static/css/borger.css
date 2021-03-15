@@ -24,7 +24,7 @@ Main merge del - start (skal tjekkes igennem)
     display: flex;
     height: 70vh;
     width: 100%;
-    background: rgba(0,130,0,0.5);
+    background: white;
     flex-direction: column;
 }
 
@@ -68,13 +68,13 @@ Main merge del - start (skal tjekkes igennem)
     height: 70vh;
     width: 100%;
     margin: auto;
-    background: rgba(150,150,100,0.3);
+    background: white;
 }
 
 .usefull-links-container{
     height: inherit;
     width: 800px;
-    background: rgba(10,150,10,0.1);
+    background: white;
     display: flex;
     flex-direction: column;
     margin: auto;
@@ -85,7 +85,7 @@ Main merge del - start (skal tjekkes igennem)
     justify-content: left;
     height: 20%;
     width: 100%;
-    background: aliceblue;
+    background: white;
     flex-direction: column;
 }
 
@@ -172,7 +172,7 @@ Main merge del - start (skal tjekkes igennem)
 .usefull-links-globe-image{
     height: 100%;
     width: 70%;
-    background: yellow;
+    background: var(--magic-mint);
     opacity: 50%;
     display: flex;
 }
@@ -214,13 +214,13 @@ Main merge del - start (skal tjekkes igennem)
 .app{
     display: flex;
     flex-direction: column;
-    background-color: rgba(0,150,0,0.5);
+    background-color: white;
     width: 100%;
     height: 100vh;
 }
 
 .app-container h1{
-    font-family: "StencilEF";
+    font-family: "Nature Breath";
     font-size: 3.5em;
     text-align: center;
 }
@@ -233,7 +233,7 @@ Main merge del - start (skal tjekkes igennem)
     height: 50%;
     width: 60%;
     margin: auto;
-    background: rgba(100,10,10,0.1);
+    background: transparent;
 }
 
 .download-button-app{
@@ -289,7 +289,7 @@ Main merge del - start (skal tjekkes igennem)
     margin: auto;
     height: 100%;
     width: 700px;
-    background-color: rgba(50,150,0,0.5);
+    background-color: white;
 
 
 }
@@ -304,7 +304,7 @@ Main merge del - start (skal tjekkes igennem)
     margin: auto;
     height: 50%;
     font-size: 3.7em;
-    font-family: "StencilEF";
+    font-family: "Nature Breath";
 }
 
 .sign-up-borger-call-out{
@@ -321,7 +321,7 @@ Main merge del - start (skal tjekkes igennem)
     display: flex;
     width: 350px;
     height: 60px;
-    background: aliceblue;
+    background: white;
     border-radius: 20px;
     border-style: hidden;
     flex-direction: column;
