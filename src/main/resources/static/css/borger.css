@@ -214,9 +214,10 @@ Main merge del - start (skal tjekkes igennem)
 .app{
     display: flex;
     flex-direction: column;
-    background-color: white;
+    background: url("../img/madspild3.jpg");
     width: 100%;
     height: 100vh;
+
 }
 
 .app-container h1{
@@ -244,7 +245,7 @@ Main merge del - start (skal tjekkes igennem)
     justify-content: center;
     flex-direction: column;
     border-radius: 15px;
-    background: var(--amazon);
+    background: linear-gradient(90deg, #98e2c6ff, #4d805cff);
     border-style: none;
 }
 
