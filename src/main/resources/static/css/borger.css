@@ -20,6 +20,34 @@ Main merge del - start (skal tjekkes igennem)
 }
 /* Splash i /private tab */
 
+.borger-info {
+    display: flex;
+    height: 70vh;
+    width: 100%;
+    background: rgba(0,130,0,0.5);
+    flex-direction: column;
+}
+
+.borger-info-text{
+    height: 300px;
+    width: 750px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.borger-info-text h1{
+    font-size: 2.1em;
+    font-family: "Alesand";
+}
+
+.borger-info-text p{
+    font-family: "Alesand";
+    font-size: 1.2em;
+
+}
+
 
 /* private side*/
 .info-for-private-customer{

@@ -29,6 +29,53 @@
     text-align: center;
 }
 
+.info-for-business-customer{
+    height: 60vh;
+    width: 100%;
+    background: rgba(0,150,1,1);
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.business-reasons-to-join{
+    margin: 0 auto auto;
+    width: 750px;
+    height: 300px;
+}
+
+.business-reasons-to-join ul{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.business-reasons-to-join-call-out{
+    margin: auto;
+    width: 750px;
+    height: 200px;
+}
+
+.business-reasons-to-join-call-out ul{
+    text-decoration: none;
+}
+
+.business-reasons-to-join ul li,
+.business-reasons-to-join-call-out p{
+    font-family: "Alesand";
+    font-size: 1.2em;
+    list-style: none;
+}
+
+.business-reasons-to-join h1,
+.business-reasons-to-join-call-out h1{
+    font-family: "Alesand";
+    font-size: 2.1em;
+}
+
 /* egenskaber for h1 title på business partner section */
 .partners-title{
     margin-top: auto;
@@ -230,4 +277,12 @@
 }
 
 .business-call-out h2{
+}
+
+.business-call-to-action{
+    background: rgba(0,150,0,1);
+    height: 30vh;
+    width: 100%;
+    justify-content: center;
+    display: flex;
 }

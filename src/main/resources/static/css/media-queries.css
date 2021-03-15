@@ -23,10 +23,14 @@
         width: 75%;
     }
 
+
 }
 
 @media (max-width: 1200px){
 
+    .business-fill-out-section-right{
+        width: 50%;
+    }
 
 }
 
