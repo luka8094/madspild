@@ -78,6 +78,10 @@ ul.menu li{
     width: 25%;
 }
 
+ul.menu li a:hover{
+    text-decoration-color: white;
+}
+
 /* footer elementets properties */
 footer{
     display: flex;
