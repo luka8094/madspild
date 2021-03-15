@@ -183,6 +183,18 @@ Main merge del - start (skal tjekkes igennem)
     height: 300px;
     width: 300px;
     margin: auto;
+    transform-origin: center;
+    animation-delay: 0s;
+    animation: rotateGlobe 2s infinite;
+}
+
+@keyframes rotateGlobe{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
 }
 
 /*
